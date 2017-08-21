@@ -1,0 +1,69 @@
+# Site wide configuration
+
+title: Tiven's Blog
+locale: zh
+description: Personal Computer Technology Blog.
+logo: Tiven Wang
+search: true
+myurl: http://tiven.wang #http://127.0.0.1:4000
+# url: http://127.0.0.1:4000 #http://tiven.wang
+cdnjs: http://cdnjs.tiven.wang/ajax/libs
+labs: http://labs.tiven.wang
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style:    compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+#  - jekyll-archives
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..4
+  enable_coderay: false
+  syntax_highlighter: rouge
+
+mathjax: false
+
+include: [".htaccess"]
+exclude: ["config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+# site disqus comments enable
+comments: true
+
+# Site owner
+owner:
+  name: Wang Tiven
+  avatar: tiven.jpg
+  background: /images/so-simple-sample-image-4.jpg
+  email: i.tiven.wang@gmail.com
+  disqus-shortname: tiven-wang
+  twitter: anyispossible
+  facebook: tiwen.wang
+  github: anypossiblew
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: tiven
+  instagram: #username
+  flickr: #username
+  tumblr: tiven-wang
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  resume: /about
+  bing-verify:
