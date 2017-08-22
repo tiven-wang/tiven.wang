@@ -67,3 +67,5 @@ owner:
     ad-slot:
   resume: /about
   bing-verify:
+
+theme: jekyll-theme-cayman
